@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="來源檔案">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="標頭檔">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="資源檔">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="glmModel">
+      <UniqueIdentifier>{307bcb15-2d0e-413e-97a2-db3a843a1498}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="glm\glm.c">
+      <Filter>glmModel</Filter>
+    </ClCompile>
+    <ClCompile Include="glm\glm_util.c">
+      <Filter>glmModel</Filter>
+    </ClCompile>
+    <ClCompile Include="glm\glmimg.c">
+      <Filter>glmModel</Filter>
+    </ClCompile>
+    <ClCompile Include="glm\glmimg_devil.c">
+      <Filter>glmModel</Filter>
+    </ClCompile>
+    <ClCompile Include="glm\glmimg_jpg.c">
+      <Filter>glmModel</Filter>
+    </ClCompile>
+    <ClCompile Include="glm\glmimg_png.c">
+      <Filter>glmModel</Filter>
+    </ClCompile>
+    <ClCompile Include="glm\glmimg_sdl.c">
+      <Filter>glmModel</Filter>
+    </ClCompile>
+    <ClCompile Include="glm\glmimg_sim.c">
+      <Filter>glmModel</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Input.hpp">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Model.hpp">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Shader.hpp">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="glm\glm.h">
+      <Filter>glmModel</Filter>
+    </ClInclude>
+    <ClInclude Include="glm\glmint.h">
+      <Filter>glmModel</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dll\Resources\shaders\Dissolve.frag" />
+    <None Include="dll\Resources\shaders\Dissolve.vert" />
+    <None Include="dll\Resources\shaders\phongFragment.frag" />
+    <None Include="dll\Resources\shaders\phongFragment.vert" />
+    <None Include="dll\Resources\shaders\Toon.frag" />
+    <None Include="dll\Resources\shaders\Toon.vert" />
+  </ItemGroup>
+</Project>
